@@ -102,3 +102,17 @@
         ${5}
       {{/with}}
     """
+
+  'Handlebars: Include Template':
+    'prefix': 'par'
+    'body': """
+      {{> ${1:name}}}
+    """
+
+  'Handlebars: New Template':
+    'prefix': 'tem'
+    'body': """
+      <template name="${1}">
+        ${2}
+      </template>
+    """
