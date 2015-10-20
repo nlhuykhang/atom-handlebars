@@ -116,3 +116,9 @@
         ${2}
       </template>
     """
+
+  'Handlebars: Helper':
+    'prefix': 'hel'
+    'body': """
+      {{${1}}}
+    """
